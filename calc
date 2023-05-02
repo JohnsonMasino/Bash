@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+let "result=5**5"
+echo "The result now is: $result"
+echo "Code developed by Masino"
