@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+var=28
+echo "My value is: $var"
