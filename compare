@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+str0="Masino"
+str1="Masino"
+
+if [ "X$str0" = "X$str1" ]
+then
+	echo "Same"
+fi
