@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+let "answer=32%3"
+echo "$answer"
