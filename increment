@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+let "var=5"
+let "var += 5"
+echo "$var"
