@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+let "number=(10+5)**2"
+echo "The number now is: $number"
