@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+str1="Initing"
+if [ -e "$str1" ]
+then
+	echo "$str1"
+else
+	echo "Not existing"
+fi
