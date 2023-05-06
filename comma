@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+let "ans = ((5 + 5, 2 + 2, 3 * 3))"
+echo "answer is: $ans"
+
+let "t2 = ((a = 9, 15 / 3))"
+echo "t2 = $t2    a = $a"
