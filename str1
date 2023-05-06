@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+name=1
+name1=2
+echo "$name $name1"
+
+if [ "$name" -a "$name1" ]
+then
+	echo "All set"
+fi
