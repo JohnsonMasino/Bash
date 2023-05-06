@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+name0="Masino"
+name1="Collins"
+name2="Innocent"
+
+echo "$name0 $name1 $name2"
+
+if [ "$name0" == "$name1" ]
+then
+	echo "$name0 and $name1 is same here"
+else
+	echo "$name0 and $name1 are not the same here please"
+fi
