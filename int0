@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+let "num0=57"
+let "num1=55"
+if [ "$num0" -lt "$num1" ]
+then
+	echo "$num0 is less than $nnum1"
+fi
+
+if [ "$num0" -gt "$num1" ]
+then
+	echo "$num1 is less than $num0"
+fi
+
+name="Masino"
+if [ "name" ]
+then
+	echo "$name"
+fi
+
+if [ "$num0" -eq "$num1" ]
+then
+	echo "They are equal"
+fi
+echo "(Code develoepd by Masino)"
+
