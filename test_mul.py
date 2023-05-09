@@ -19,5 +19,9 @@ class testmul(unittest.TestCase):
     def test_check2(self):
         self.assertTrue(30 >= 29)
 
+    def test_check3(self):
+        number = self.countTestCases()
+        print(f"The number of test cases are: {number}.")
+
 if __name__ == "__main__":
     unittest.main()
