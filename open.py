@@ -2,5 +2,16 @@
 
 import sys
 
-print(dir(sys))
-print("\nCode developed by Masino")
+class Disp:
+
+    def DispPath():
+        print("The system directories are:")
+        print(dir(sys))
+        print("\n\nThe path subdirectory are:")
+        print(dir(sys.path))
+    print("\nCode developed by Masino")
+
+Disp.DispPath()
+
+if __name__ == "__main__":
+    main()
