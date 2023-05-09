@@ -23,5 +23,9 @@ class testmul(unittest.TestCase):
         number = self.countTestCases()
         print(f"The number of test cases are: {number}.")
 
+class testmul1(unittest.TestResult):
+    def test_check0(self):
+        self.wasSuccessful()
+
 if __name__ == "__main__":
     unittest.main()
