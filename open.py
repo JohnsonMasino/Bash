@@ -9,9 +9,6 @@ class Disp:
         print(dir(sys))
         print("\n\nThe path subdirectory are:")
         print(dir(sys.path))
-    print("\nCode developed by Masino")
 
+        print("\nCode developed by Masino")
 Disp.DispPath()
-
-if __name__ == "__main__":
-    main()
